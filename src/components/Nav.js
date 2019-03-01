@@ -6,14 +6,14 @@ import SubNavIcon from './SubNavIcon';
 const Nav = () => {
 
     return (
-        <nav className='mainNav open'>
+        <nav className='mainNav'>
 
             <div>
                 <NavItem icon='scheduling.png'>
                     my schedule & bidding
                     <SubNavIcon></SubNavIcon>
                 </NavItem>
-                <nav className="subNav open">
+                <nav className="subNav">
                     <div className="subNav__title">
                         <h2>Scheduling & Bidding</h2>
                         <button className='subNav-closeIcon' onClick={(e) => {
