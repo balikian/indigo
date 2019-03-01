@@ -1,0 +1,21 @@
+// Colors
+$white: #ffffff;
+$darkest-blue: #01426A;
+// $dark-blue: #007CBA;
+$dark-blue: #2c75c0;
+$medium-blue: lighten( $dark-blue, 10% );
+$light-blue: #5fa1f1;
+$lightest-blue: lighten( $light-blue, 10% );
+
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 2rem;
+$xl-size: 3.6rem;
+$desktop-breakpoint: 45rem;
+
+@mixin background-opacity($color, $opacity: 1) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
